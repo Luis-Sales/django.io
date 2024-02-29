@@ -1,7 +1,15 @@
 {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "GitHub.copilot"
-
+    "editor.formatOnSave": false,
+    "emmet.includeLanguages": {
+        "django-html": "html"
+    },
+    "editor.defaultFormatter": "junstyle.vscode-django-support",
     
+    "CodeGPT.apiKey": "CodeGPT Plus Beta",
+    "[django-html]": {
+        "editor.defaultFormatter": "junstyle.vscode-django-support"
+    }
+
+     
 }
 
